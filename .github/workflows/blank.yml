@@ -14,10 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-workflow:
-    uses: octo-org/example-repo/.github/workflows/workflow-A.yml@v1
-
-  call-workflow-passing-data:
+   call-workflow-passing-data:
     uses: hirenpatel35/reusable-workflow-a/.github/workflows/blank.yml@main
     with:
       username: "test"

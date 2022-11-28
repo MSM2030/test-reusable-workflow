@@ -17,5 +17,5 @@ jobs:
    call-workflow-passing-data:
     uses: hirenpatel35/reusable-workflow-a/.github/workflows/blank.yml@main
     with:
-      username: "test"
+      username: "hello"
  
